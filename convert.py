@@ -25,7 +25,7 @@ def convert_units():
                 result = conversions[choice][1](value)
                 print(f"Результат: {result:.2f}\n")
             except ValueError:
-                print("Ошибка: введите числовое значение.\n")
+                print("Ошибка: Введите числовое значение.\n")
         else:
             print("Неверный ввод, попробуйте снова.\n")
 
